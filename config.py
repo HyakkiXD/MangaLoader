@@ -1,8 +1,8 @@
 import os
 
 class Config(object):
-    APP_ID = int(os.environ['APP_ID'])
-    API_HASH = os.environ['API_HASH']
-    BOT_TOKEN = os.environ['BOT_TOKEN']
-    OWNER_ID = int(os.environ['OWNER_ID'])
+    APP_ID = '7425008'
+    API_HASH = 'c2e856cc2197f8aa52530ac67ffa9d72'
+    BOT_TOKEN = '2055736204:AAHw98MzwsIMZE5edbFoVl3Wgda5TpsqCsM'
+    OWNER_ID = '1811998438'
     AS_ZIP = bool(os.environ['AS_ZIP'])
